@@ -1,0 +1,43 @@
+body { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+#one { width: 700px; }
+
+#one #two { width: 300px; height: 200px; float: left; }
+
+#one #two div { width: 100px; height: 100px; float: left; }
+
+#one #two div img { width: 100px; height: 100px; float: left; }
+
+#one #three { width: 200px; height: 300px; float: right; }
+
+#one #three div { width: 200px; height: 150px; }
+
+#one #three div img { width: 200px; height: 150px; }
+
+#one #four { width: 200px; height: 300px; float: right; }
+
+#one #four div { width: 100px; height: 100px; float: left; }
+
+#one #four div img { width: 100px; height: 100px; }
+
+#one #four div:nth-child(3) { width: 200px; height: 200px; float: left; }
+
+#one #four div:nth-child(3) img { width: 200px; height: 200px; }
+
+#one #six { width: 300px; height: 200px; float: left; }
+
+#one #six div { width: 150px; height: 100px; float: left; }
+
+#one #six div img { width: 150px; height: 100px; }
+
+#one #seven { width: 400px; height: 100px; float: left; }
+
+#one #seven div { width: 100px; height: 100px; float: left; }
+
+#one #seven div img { width: 100px; height: 100px; }
+
+img:hover { -webkit-animation: scale 2s forwards; animation: scale 2s forwards; }
+
+@-webkit-keyframes scale { 100% { -webkit-transform: scale(2); transform: scale(2); } }
+
+@keyframes scale { 100% { -webkit-transform: scale(2); transform: scale(2); } }
